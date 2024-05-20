@@ -13,21 +13,29 @@
 	<nav class="nav-bar">
 		<ul>
 			<li><a class="enlace" href="#">Inicio</a></li>
-			<li><a class="enlace" href="#">Profesores</a></li>
-			<li><a class="enlace" href="#">Pasantias</a></li>
+			<li><a class="enlace" href="#profesores">Profesores</a></li>
+			<li><a class="enlace" href="#programa">Programa</a></li>
+			<li><a class="enlace" href="#contacto">Contacto</a></li>
+
 		</ul>
 	</nav>
 	<main class="contenido-principal">
 		<section id="programacion-visual" class="section">
 			<h2 class="title-section">Programacion visual</h2>
-			<p class="text-section">Materia de 2do año del primer cuatrimestre de la carrera de Analista Programador Universtario</p>
-			<h3>Profesores</h3>
+			<p class="text-section">La materia de Programación Visual en el segundo año de la Facultad de Ingeniería de la Universidad Nacional de Jujuy es fundamental para los estudiantes que buscan profundizar en el desarrollo de aplicaciones complejas y robustas. A lo largo del curso, se abordan una amplia variedad de temas que proporcionan una sólida base en programación y desarrollo web.</p>
+			<div class="img-pv-container">
+				<img src="../static/images/prog-visual-img.jpg" />
+			</div>
+			<div id="profesores">
+			<h3>Profesores encargados de las materias</h3>
+			
 			<ul>
-				<li>Carolina Apaza</li>
-				<li>Ariel Vega</li>
-				<li>Juan Rodriguez</li>
-				<li>Gustavo Sosa</li>
+				<li><a href="https://virtual.unju.edu.ar/user/profile.php?id=6082">Carolina Apaza</a></li>
+				<li><a href="">Ariel Vega</a></li>
+				<li><a href="">Juan Rodriguez</a></li>
+				<li><a href="https://virtual.unju.edu.ar/user/profile.php?id=10947">Gustavo Sosa</a></li>
 			</ul>
+			</div>
 		</section>
 		
 		
@@ -66,13 +74,13 @@
 		
 		<section id="proyectos" class="section">
 			<h2 class="title-section">Proyectos</h2>
-			<p class="text-section">Tipos de proyectos que se pueden hacer</p>
+			<p class="text-section">Ejemplo de los tipos de proyectos que se pueden hacer</p>
 			
-			<ul>
-				<li>Sistema de Gestión de Contenidos (CMS):</li>
-				<li>Plataforma de Comercio Electrónico</li>
-				<li>Sistema de Gestión de Proyectos</li>
-				<li>Sistema de Reservas y Citas</li>
+			<ul class="proyectos-lista">
+				<li><a href="https://wordpress.org/">Wordpress (Sistema de Gestión de Contenidos (CMS))</a></li>
+				<li><a href="https://www.shopify.com/es">Shopify (Plataforma de Comercio Electrónico)</a></li>
+				<li><a href="https://www.atlassian.com/es/software/jira">Jira (Sistema de Gestión de Proyectos)</a></li>
+				<li><a href="https://www.reservio.com/es">Reservio (Sistema de Reservas y Citas)</a></li>
 			</ul>
 				
 					
@@ -80,34 +88,39 @@
 	</main>
 	<aside>
 		<h3>Más info de otras carreras y tutorias</h3>
-		<a href="https://www.fi.unju.edu.ar/"><img src="../static/images/sistema-de-tutorias-24.jpg" alt="sistema-de-tutorias-photo" /></a>
+		<a href="https://www.fi.unju.edu.ar/"><img src="../static/images/banner-fiunju.jpg" alt="banner-fi-unju" /></a>
 	</aside>
-	<footer>
+	<footer id="contacto">
 		<h2>Contacto</h2>
-					<p>Para más informacion llamar a los siguientes números</p>
-					
-					<table border="1">
-					  <tr>
-					    <th>Consultas</th>
-					    <th>Reclamos</th>
-					  </tr>
-					  <tr>
-					    <td>deptoalumnos@gmail.com</td>
-					    <td>388555-5678</td>
-					  </tr>
-					  <tr>
-					    <td>38865-3456</td>
-					    <td>38855-7890</td>
-					  </tr>
-					</table>
-					
-					<h3>Redes sociales</h3>
-					<ul>
-						<li><a href="https://www.facebook.com/fiunju/">facebook</a></li>
-						<li><a href="https://www.instagram.com/fiunju/">instagram</a></li>
-						<li><a href="https://www.linkedin.com/school/facultad-de-ingenieria-unju/">linkedin</a></li>
-					</ul>			
-		
+		<div class="container-contact-footer">
+			<div>
+				<h3>Para más informacion llamar a los siguientes números</h3>
+				<table>
+					<tr>
+						<th>Consultas</th>
+						<th>Reclamos</th>
+					</tr>
+					<tr>
+						<td>deptoalumnos@gmail.com</td>
+						<td>388555-5678</td>
+					</tr>
+					<tr>
+						<td>38865-3456</td>
+						<td>38855-7890</td>
+					</tr>
+				</table>
+				
+			</div>
+						
+			<div>					
+			<h3>Redes sociales</h3>
+			<ul class="redes">
+				<li><a href="https://www.facebook.com/fiunju/">facebook</a></li>
+				<li><a href="https://www.instagram.com/fiunju/">instagram</a></li>
+				<li><a href="https://www.linkedin.com/school/facultad-de-ingenieria-unju/">linkedin</a></li>
+			</ul>			
+			</div>
+		</div>
 	</footer>
 	
 </body>
